@@ -1,0 +1,1 @@
+{:bbin/bin {parmezan {:main-opts ["-m" "borkdude.parmezan.cli"]}}}

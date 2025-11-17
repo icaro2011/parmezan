@@ -13,7 +13,10 @@
 (defn parmezan [s]
   (loop [s s]
       (let [[status s]
-            (try (e/parse-string-all s {:all true})
+            (try (e/parse-string-all s {:all true
+                                        :features #{:clj :cljs :bb} ;; TODO: upgrade edamame for allowing any
+                                        :read-cond :allow
+                                        :auto-resolve name})
                  [::success s]
                  (catch clojure.lang.ExceptionInfo e
                    (if-let [expected-delimiter (:edamame/expected-delimiter (ex-data e))]

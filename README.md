@@ -30,7 +30,7 @@ bbin install io.github.borkdude/parmezan
 
 Once installed with bbin, you can hook this tool up with Emacs like this:
 
-```
+``` elisp
 (defun parmezan ()
   "Run parmezan on the current buffer."
   (interactive)

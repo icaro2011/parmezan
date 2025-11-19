@@ -14,11 +14,15 @@
   (loop [s s]
       (let [[status s]
             (try (e/parse-string-all s {:all true
-                                        :features #{:clj :cljs :bb} ;; TODO: upgrade edamame for allowing any
+                                        :features #?(:bb
+                                                     ;; wait for new bb release to remove this
+                                                     #{:clj :cljs :bb}
+                                                     :default identity)
                                         :read-cond :allow
                                         :auto-resolve name})
                  [::success s]
-                 (catch clojure.lang.ExceptionInfo e
+                 (catch #?(:clj clojure.lang.ExceptionInfo
+                           :cljs ExceptionInfo) e
                    (if-let [expected-delimiter (:edamame/expected-delimiter (ex-data e))]
                      ;; Edamame pre https://github.com/borkdude/edamame/issues/136
                      (let [{:keys [row col]} (ex-data e)

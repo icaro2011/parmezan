@@ -19,7 +19,9 @@
                                                      #{:clj :cljs :bb}
                                                      :default identity)
                                         :read-cond :allow
-                                        :auto-resolve name})
+                                        :auto-resolve name
+                                        :readers (fn [_tag]
+                                                   (fn [val] val))})
                  [::success s]
                  (catch #?(:clj clojure.lang.ExceptionInfo
                            :cljs ExceptionInfo) e
@@ -40,3 +42,7 @@
         (case status
           ::success s
           ::recur (recur s)))))
+
+(comment
+  (parmezan "#js [")
+  )

